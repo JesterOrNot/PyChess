@@ -15,7 +15,7 @@ pygame.init()
 # Set the HEIGHT and WIDTH of the screen
 WINDOW_SIZE = [325, 325]
 screen = pygame.display.set_mode(WINDOW_SIZE)
-pygame.display.set_caption("Array Backed Grid")
+pygame.display.set_caption("Tic Tac Toe")
 done = False
 # Used to manage how fast the screen updates
 clock = pygame.time.Clock()
